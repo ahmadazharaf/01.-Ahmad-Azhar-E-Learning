@@ -20,21 +20,29 @@
         align="center"
         justify="center"
       >
-        <v-tabs
-    fixed-tabs
-    background-color="white"
-    dark
-  >
-    <v-tab class="ml-1 black--text">
-      Beranda
-    </v-tab>
-    <v-tab class="ml-1 black--text">
-     Kelas
-    </v-tab>
-    <v-tab class="ml-1 black--text">
-      Kelasku
-    </v-tab>
-  </v-tabs>
+        <v-btn
+        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        target="_blank"
+        text
+      >
+        <span v-resize-text class="ml-1 black--text">Beranda</span>
+        </v-btn>
+
+    <v-btn
+        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        target="_blank"
+        text
+      >
+        <span v-resize-text class="pm-2 black--text">Kelas</span>
+        </v-btn>
+    
+    <v-btn
+        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        target="_blank"
+        text
+      >
+        <span v-resize-text class="mr-2 black--text">Kelasku</span>
+        </v-btn>
         </v-row>
       
     <v-spacer></v-spacer>
