@@ -85,6 +85,7 @@
       outlined
       rounded
       color="black"
+      href="https://github.com/vuetifyjs/vuetify/releases/latest"
     >
       LOGIN
     </v-btn>
@@ -167,8 +168,6 @@
             veniam.
         </h1>
         </v-col>
-
-        
     </v-main>
   
   <v-footer
